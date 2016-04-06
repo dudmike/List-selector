@@ -53,5 +53,16 @@
     #red_btn:hover {background-position: -187px -281px;}
     #red_btn:active {background-position: -372px -285px;}
     #red_div:active {position: relative; top: 5px; height: 42px;}
-    #red_div:active ~ * {margin-top:3px;}
+    #red_div:active ~ * {margin-top:28px;}
     #splitter {width: 100%; height: 750px;position:absolute; top: 0px;}
+
+    .selected {
+      background: #0f0;
+    }
+
+    li {
+      cursor: pointer;
+    }
+    #ul {
+      z-index: 4;
+    }
